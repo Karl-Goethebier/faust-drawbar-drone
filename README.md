@@ -67,22 +67,9 @@ This creates a standalone Qt application with built-in scope and spectrum.
 - **Knee**: sets the softness of the clipping transition.
 
 ## Examples
-
 - **Pure Drone**: A4=440 Hz, pull only **8′**, vibrato/shimmer off.  
 - **Orchestra 443 Hz**: A4=443 Hz, use **8′ + 4′ + 2′**, add slight vibrato.  
 - **Baroque 415 Hz**: A4=415 Hz, pull **8′ + 5 1/3′**, shimmer depth small.
-
-## Development
-
-See [CHANGELOG.md](CHANGELOG.md) for current changes. Contributions welcome.
-
-## License
-
-[MIT](LICENSE)
-
----
-
-*This project uses [Faust](https://faust.grame.fr/).*
 
 ## How to Run
 1. Open the [Faust Web IDE](https://fausteditor.grame.fr/).
@@ -131,6 +118,18 @@ Issues and PRs welcome! Ideas: presets, simple reverb (Schroeder), MIDI note inp
 ## Disclaimer
 This software is experimental and provided **as is**, without any warranty.  
 Use at your own risk — especially with headphones or high volumes.
+
+## Development
+
+See [CHANGELOG.md](CHANGELOG.md) for current changes. Contributions welcome.
+
+## License
+
+[MIT](LICENSE)
+
+---
+
+*This project uses [Faust](https://faust.grame.fr/).*
 
 
 
