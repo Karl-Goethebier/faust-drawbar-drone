@@ -1,5 +1,5 @@
 # faust-drawbar-drone
-# Drawbar Drone Synth (Faust)
+## Drawbar Drone Synth (Faust)
 
 A simple drone generator inspired by Hammond drawbars, written in the [Faust DSP language](https://faust.grame.fr).
 
