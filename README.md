@@ -109,7 +109,7 @@ This creates a standalone Qt application with built-in scope and spectrum.
 - 0.1.0 — Initial release (static detune + shimmer, JI/ET switch, stereo spread)
 
 ## Contributing
-Issues and PRs welcome! Ideas: presets, simple reverb (Schroeder), MIDI note input.
+Issues and PRs welcome! Ideas: presets, simple reverb, MIDI note input.
 
 ## Acknowledgments
 - This project was prototyped with assistance from [ChatGPT](https://openai.com/chatgpt), an AI coding assistant.  
