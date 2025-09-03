@@ -16,6 +16,74 @@ Try it online in the Faust Web IDE:
 - Stereo spread
 - Power + Master volume
 
+  ## Installation
+
+### Run in the Faust Web IDE
+1. Open [Faust Web IDE](https://faustide.grame.fr/) or [Faust Playground](https://faustplayground.grame.fr/).
+2. Paste the contents of `drawbar-drone.dsp`.
+3. Press **Run**, then wiggle a slider (needed on iOS to unlock audio).
+4. Adjust drawbars and tuning to taste.
+
+### Local build (optional)
+If you have Faust installed:
+
+```bash
+faust2jaqt drawbar-drone.dsp
+```
+
+This creates a standalone Qt application with built-in scope and spectrum.
+
+## Usage
+
+### Drawbars
+- Nine virtual drawbars replicate a Hammond-style additive synth.
+- Each ranges **0–8**; higher = more volume for that harmonic.
+- Example: pull only **8′** to hear a pure sine drone at the fundamental.
+
+### Tuning
+- **A4 Ref [Hz]**: set the concert pitch between **390–470 Hz** (integer steps).
+- **Fine [cents]**: adjust ±50 cents for precise matching.
+- **Legacy Octave**: toggle if your environment counts octaves differently.
+  - Off (default) = *Scientific Pitch Notation* (**C4 = 261 Hz, A4 = 440 Hz**).
+  - On = “Legacy” convention (**C3 = 261 Hz**).
+
+### Temperament
+- **EqualTemperament** checkbox:  
+  - Off = Just Intonation (JI).  
+  - On = Equal Temperament (ET).
+
+### Modulation
+- **Vibrato Rate / Depth**: slow pitch wobble (depth default = 0 for exact tuning).
+- **Static Cents**: add subtle detuning between channels.
+- **Shimmer TremDepth / TremRate**: slow amplitude beating.
+
+### Stereo
+- **Stereo Spread**: widens or narrows the panning of partials.
+
+### Output
+- **Master**: overall level control.
+- **Output Gain**: extra boost/cut in dB (–12 to +24).
+- **Soft Clip**: optional safety limiter using arctan curve.
+- **Knee**: sets the softness of the clipping transition.
+
+## Examples
+
+- **Pure Drone**: A4=440 Hz, pull only **8′**, vibrato/shimmer off.  
+- **Orchestra 443 Hz**: A4=443 Hz, use **8′ + 4′ + 2′**, add slight vibrato.  
+- **Baroque 415 Hz**: A4=415 Hz, pull **8′ + 5 1/3′**, shimmer depth small.
+
+## Development
+
+See [CHANGELOG.md](CHANGELOG.md) for current changes. Contributions welcome.
+
+## License
+
+[MIT](LICENSE)
+
+---
+
+*This project uses [Faust](https://faust.grame.fr/).*
+
 ## How to Run
 1. Open the [Faust Web IDE](https://fausteditor.grame.fr/).
 2. Paste the contents of `DrawbarDrone.dsp` into the editor.
