@@ -49,9 +49,6 @@ Try it online in the Faust Web IDE:
 - Faust Web IDE: https://fausteditor.grame.fr/
 - Raw DSP file (copy/paste into IDE): `DrawbarDrone.dsp`
 
-## Suggested Topics (GitHub “About” box)
-faust, dsp, synthesis, organ, drawbars, drone, audio, realtime-audio
-
 ## Changelog
 - 0.1.0 — Initial release (static detune + shimmer, JI/ET switch, stereo spread)
 
