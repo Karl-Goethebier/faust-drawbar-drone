@@ -16,7 +16,8 @@ Try it online in the Faust Web IDE:
 - Stereo spread
 - Power + Master volume
 
-  ## Installation
+
+## Installation
 
 ### Run in the Faust Web IDE
 1. Open [Faust Web IDE](https://faustide.grame.fr/) or [Faust Playground](https://faustplayground.grame.fr/).
