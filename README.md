@@ -43,3 +43,19 @@ Try it online in the Faust Web IDE:
 | db7     | 1 3/5′  | Two octaves + major third (3rd harmonic)    |
 | db8     | 1 1/3′  | Two octaves + fifth (5th harmonic)          |
 | db9     | 1′      | Three octaves above                         |
+
+
+## Links
+- Faust Web IDE: https://fausteditor.grame.fr/
+- Raw DSP file (copy/paste into IDE): `DrawbarDrone.dsp`
+
+## Suggested Topics (GitHub “About” box)
+faust, dsp, synthesis, organ, drawbars, drone, audio, realtime-audio
+
+## Changelog
+- 0.1.0 — Initial release (static detune + shimmer, JI/ET switch, stereo spread)
+
+## Contributing
+Issues and PRs welcome! Ideas: presets, simple reverb (Schroeder), MIDI note input.
+
+
