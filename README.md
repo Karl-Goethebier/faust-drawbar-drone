@@ -58,4 +58,15 @@ faust, dsp, synthesis, organ, drawbars, drone, audio, realtime-audio
 ## Contributing
 Issues and PRs welcome! Ideas: presets, simple reverb (Schroeder), MIDI note input.
 
+## Acknowledgments
+- This project was prototyped with assistance from [ChatGPT](https://openai.com/chatgpt), an AI coding assistant.  
+- Synth design and implementation are based on the [Faust DSP language](https://faust.grame.fr/).  
+- Inspiration: Hammond organ drawbars and the tradition of sustained drone sounds in experimental and meditative music.
+
+## Disclaimer
+This software is experimental and provided **as is**, without any warranty.  
+Use at your own risk — especially with headphones or high volumes.
+
+
+
 
