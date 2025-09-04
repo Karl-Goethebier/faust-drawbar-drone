@@ -18,7 +18,7 @@
 ## Verified
 - Frequency stability checked with strobe tuner → bands remain still.
 - FaustIDE on iPad: sometimes unreliable (audio start, missing diagram).
-- Fausteditor + `Ctrl/⌘+R` as a reliable workaround.
+- Fausteditor + `Ctrl+R` as a reliable workaround.
 
 ## Next Steps
 - **Tuner Mode preset**:
