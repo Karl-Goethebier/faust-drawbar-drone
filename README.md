@@ -3,8 +3,7 @@
 
 A simple drone generator inspired by Hammond drawbars, written in the [Faust DSP language](https://faust.grame.fr).
 
-Try it online in the Faust Web IDE:  
-👉 https://fausteditor.grame.fr/
+Try it online in the [Faust Web Editor](https://fausteditor.grame.fr)  
 
 ## Features
 - 9 Hammond-style drawbars (16′ … 1′)
@@ -19,11 +18,10 @@ Try it online in the Faust Web IDE:
 
 ## Installation
 
-### Run in the Faust Web IDE
-1. Open [Faust Web IDE](https://faustide.grame.fr/) or [Faust Playground](https://faustplayground.grame.fr/).
+### Run in the Faust Web Editor
+1. Open [Faust Web Editor](https://fausteditor.grame.fr) 
 2. Paste the contents of `drawbar-drone.dsp`.
-3. Press **Run**, then wiggle a slider (needed on iOS to unlock audio).
-4. Adjust drawbars and tuning to taste.
+3. Adjust drawbars and tuning to taste.
 
 ### Local build (optional)
 If you have Faust installed:
@@ -73,7 +71,7 @@ This creates a standalone Qt application with built-in scope and spectrum.
 - **Baroque 415 Hz**: A4=415 Hz, pull **8′ + 5 1/3′**, shimmer depth small.
 
 ## How to Run
-1. Open the [Faust Web IDE](https://fausteditor.grame.fr/).
+1. Open the [Faust Web Editor](https://fausteditor.grame.fr/).
 2. Paste the contents of `DrawbarDrone.dsp` into the editor.
 3. Click **Run**.
 
@@ -107,7 +105,7 @@ This creates a standalone Qt application with built-in scope and spectrum.
 - [Equal temperament](https://en.wikipedia.org/wiki/Equal_temperament)
 - [Registration](https://en.wikipedia.org/wiki/Registration_(organ))
 - [Faust Web Editor](https://fausteditor.grame.fr/)
-- Raw DSP file (copy/paste into IDE): `DrawbarDrone.dsp`
+- Raw DSP file (copy/paste into the Web Editor): `DrawbarDrone.dsp`
 
 ## Changelog
 - 0.1.0 — Initial release (static detune + shimmer, JI/ET switch, stereo spread)
