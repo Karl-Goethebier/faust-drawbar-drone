@@ -103,6 +103,8 @@ This creates a standalone Qt application with built-in scope and spectrum.
 
 ## Links
 - [Drawbars](https://en.wikipedia.org/wiki/Hammond_organ#Drawbars)
+- [Just Intonation](https://en.wikipedia.org/wiki/Just_intonation)
+- [Equal temperament](https://en.wikipedia.org/wiki/Equal_temperament)
 - Faust Web IDE: https://fausteditor.grame.fr/
 - Raw DSP file (copy/paste into IDE): `DrawbarDrone.dsp`
 
