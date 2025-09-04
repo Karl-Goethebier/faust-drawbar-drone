@@ -102,6 +102,7 @@ This creates a standalone Qt application with built-in scope and spectrum.
 
 
 ## Links
+- Drawbars: https://en.wikipedia.org/wiki/Hammond_organ#Drawbars 
 - Faust Web IDE: https://fausteditor.grame.fr/
 - Raw DSP file (copy/paste into IDE): `DrawbarDrone.dsp`
 
