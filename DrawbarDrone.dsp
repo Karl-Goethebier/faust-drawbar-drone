@@ -21,7 +21,7 @@ A4FineCt   = nentry("Tuning/Fine [cents]", 0, -50, 50, 1);       // integer cent
 legacyMap  = checkbox("Mapping/Legacy Octave (no +1)");          // off = scientific (C4=MIDI60)
 
 // Temperament: 0 = JI, 1 = ET
-mode       = checkbox("EqualTemperament");
+mode = hslider("Tuning/Temperament [style:menu{'Just':0; 'Equal':1}]", 0, 0, 1, 1);
 
 // Output
 outGainDb  = hslider("Output/Gain [unit:dB]", 6, -12, 24, 0.1);
